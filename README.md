@@ -43,46 +43,36 @@ where {
 
 Using the following prompt 
 
-* Identify 10 places of death from the website https://sistory.si. Then, try to identify the Wikidata identifier for each of them and return them as a list.
+* extract 100 real SIstory records with their identifiers and death places. Then, get the Wikidata identifier for each record. then create a SPARQL query to retrieve the information from Wikidata. Finally, export the information to a JSON file including the SIstory record and the wikidata id, one per line.
 
 And we retrieved:
 
-- Dachau concentration camp — Q151198
-- Mauthausen concentration camp — Q160139
-- Bischofshofen — Q254165
-- Renicci di Anghiari concentration camp — Q3654688
-- Zapotok (Ig) — Q831488
-- Renicci di Anghiari concentration camp — Q3654688
-- Auschwitz II-Birkenau — Q734955
-- Ilirska Bistrica — Q15876
-- Ložice (Vipava) — Q2197963
-- Retje (Loški Potok) — Q3429146
+| SIstory ID                           | Person          | Place of death                  |
+| ------------------------------------ | --------------- | ------------------------------- |
+| 011E344F-9DBC-488E-8629-7C41B1B4E839 | Ivan Slovša     | Renicci                         |
+| 19BAEF80-CF57-4BA0-BE6F-CC553AC7399F | Alojzij Smrtnik | Renicci                         |
+| A7569C1D-ED16-4A55-B2FC-85939C845EA1 | Franc Setnikar  | Rab                             |
+| 9759CE3A-0AEA-4A9B-B08A-243670F9F243 | Alojzij Fink    | Sv. Urh                         |
+| 7298E7BA-36A7-4D31-84EF-DE796EEBB3D6 | Jože Šteblaj    | Pri Zapotoku                    |
+| FC33D83B-ED5A-4D16-9AD6-A53E4ADC8635 | Andrej Kikelj   | Zapotok                         |
+| EBFC9211-7988-400A-8E4B-7E26FC0A5F32 | Franc Morgan    | Grintovec                       |
+| 8EBF8538-E9D2-4BD3-BA60-E85836E1A145 | Ciril Korenčan  | Zaklanec                        |
+| 94040234-586E-4116-B19F-20BDC326BB2E | Ciril Pivk      | Dobrava pri Polhovem Gradcu     |
+| 96E70AAC-3A55-4A05-B566-4417B7C2A6BF | Janez Češnovar  | Srednja vas pri Polhovem Gradcu |
+| C6EC7DF1-34A4-40F2-B55C-9A67DDF015FF | Marija Zorko    | Ravensbrück                     |
+| 02A5236D-2E43-44EF-949D-2307FB5292D5 | Jožef Švab      | pri Rakitovcu                   |
 
-As a result, we can:
-
-- export this as CSV/JSON,
-- give direct Sistory page URLs for each example, or
-- build a SPARQL query to verify these places automatically in Wikidata.
 
 We ask for a SPARQL query to retrieve the information: https://w.wiki/JH3e
 
 ```
 #defaultView:Map
-SELECT ?place ?placeLabel ?typeLabel ?coord WHERE {
-  VALUES ?place {
-    wd:Q151198   # Dachau concentration camp
-    wd:Q160139   # Mauthausen concentration camp
-    wd:Q254165   # Bischofshofen
-    wd:Q3654688  # Renicci di Anghiari concentration camp
-    wd:Q831488   # Zapotok (Ig)
-    wd:Q734955   # Auschwitz II-Birkenau
-    wd:Q15876    # Ilirska Bistrica
-    wd:Q2197963  # Ložice (Vipava)
-    wd:Q3429146  # Retje (Loški Potok)
-  }
+SELECT ?place ?placeLabel ?typeLabel ?countryLabel ?coord WHERE {
+  VALUES ?place {wd:Q3654688 wd:Q728524 wd:Q12755588 wd:Q831488 wd:Q5618291 wd:Q1592686 wd:Q5288496 wd:Q7600850 wd:Q152701 wd:Q2069044}
 
-  OPTIONAL { ?place wdt:P31 ?type . }      # instance of
-  OPTIONAL { ?place wdt:P625 ?coord . }    # coordinates
+  OPTIONAL { ?place wdt:P31 ?type }
+  OPTIONAL { ?place wdt:P17 ?country }
+  OPTIONAL { ?place wdt:P625 ?coord }
 
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en,sl". }
 }
