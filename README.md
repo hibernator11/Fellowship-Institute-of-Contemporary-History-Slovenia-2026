@@ -18,11 +18,12 @@ A selection of digital collections are available at [https://dariah.si/projects/
 ## Ideas
 
 - [Datasheets for Digital Cultural Heritage Datasets](https://doi.org/10.5281/zenodo.15828222)
-- Visualisations
-- New section in the website as GLAM Labs
-- Examples of use based on reproducible code
+- Visualisations (e.g., maps and charts)
+- Enrichment with external repositories (e.g., Wikidata)
+- New section in the website as GLAM Labs (e.g., see the [Data Foundry at the National Library of Scotland](https://data.nls.uk/))
+- Examples of use based on reproducible code and Jupyter Notebooks (e.g., see https://doi.org/10.1002/asi.24835)
 - API access
-- Integration with European infrastructures
+- Integration with European infrastructures (e.g., ECCCH and EOSC)
 - Open Access practices: Zenodo, Social Sciences and Humanities Open Marketplace, OpenAIRE
 
 ## References
@@ -34,3 +35,4 @@ A selection of digital collections are available at [https://dariah.si/projects/
 - Candela, G., Chambers, S., Irollo, A., Freire, N., Dritsou, V., Isaac, A., Benardou, A., Garnett, V., & Tasovac, T. (n.d.). A Workflow to publish Collections as Data: looking back at Europeana.eu and forward to the common European data space for cultural heritage (Version 1, Vol. 965). Transformations: A DARIAH Journal . https://doi.org/10.46298/transformations.14774
 - Candela, G., Rosiński, C., & Margraf, A. (2025). A reproducible framework to publish and reuse Collections as data: the case of the European Literary Bibliography (Version 4, Vol. 965, Issue 170). Transformations: A DARIAH Journal . https://doi.org/10.46298/transformations.14729
 - Candela, G., Cuper, M., Holownia, O., Gabriëls, N., Dobreva, M., Mahey, M. (2024). A Systematic Review of Wikidata in GLAM Institutions: a Labs Approach. In: Antonacopoulos, A., et al. Linking Theory and Practice of Digital Libraries. TPDL 2024. Lecture Notes in Computer Science, vol 15178. Springer, Cham. https://doi.org/10.1007/978-3-031-72440-4_4
+- Gustavo Candela, Sally Chambers, Tim Sherratt: An approach to assess the quality of Jupyter projects published by GLAM institutions. J. Assoc. Inf. Sci. Technol. 74(13): 1550-1564 (2023)
