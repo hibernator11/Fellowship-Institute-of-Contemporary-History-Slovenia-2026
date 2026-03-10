@@ -14,6 +14,30 @@ A selection of digital collections are available at [https://dariah.si/projects/
 
 <img src="img/database.png" width="50%">
 
+## Examples of records
+
+These records were extracted manually from the website and linked to Wikidata.
+
+- https://sistory.si/eng/ww2/CE087EAC-BF00-4948-AA8D-BA678EB4E05D (place of death Hrib: https://www.wikidata.org/wiki/Q2055580)
+- https://sistory.si/eng/ww2/055BE140-1B85-4572-BE94-6D5798EB6524 (place of death Travna gora: https://www.wikidata.org/wiki/Q2058146)
+- https://sistory.si/eng/ww2/2D461E96-1274-46FE-895B-133250653872 (place of death Celje: https://www.wikidata.org/wiki/Q1012)
+- https://sistory.si/eng/ww2/E4D233E0-AF3B-4A76-90C9-CBBC97680632 (place of death Resnik, Pohorje: https://www.wikidata.org/wiki/Q218853)
+- https://sistory.si/eng/ww2/1C5D7D68-A4E8-4E83-9DF3-C003B5161780 (place of death Kajski rajon, Kirovska oblast: https://www.wikidata.org/wiki/Q5387)
+
+As a result, we can create a simple visualisation using the [Wikidata SPARQL endpoint](https://w.wiki/JH3F):
+
+```
+#defaultView:Map      
+select ?s ?sLabel ?coord ?image 
+where {
+     values ?s {wd:Q2055580 wd:Q2058146 wd:Q1012 wd:Q218853 wd:Q5387}
+      ?s wdt:P625 ?coord .
+      ?s wdt:P18 ?image
+   
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],es". }
+}
+```
+
 
 ## Ideas
 
