@@ -10,7 +10,10 @@ This presentation will introduce the publication and use of digital collections 
 
 ## Datasets
 
-A selection of digital collections are available at [https://dariah.si/projects/research-data-collections/](https://dariah.si/projects/research-data-collections/). In particular, the [Database of Victims of the Republic of Slovenia during and immediately after the Second World War](https://sistory.si/eng/ww2?t=desc)
+A selection of digital collections are available at [https://dariah.si/projects/research-data-collections/](https://dariah.si/projects/research-data-collections/), in particular, the [Database of Victims of the Republic of Slovenia during and immediately after the Second World War](https://sistory.si/eng/ww2?t=desc). The list, containing more than 100,000 persons, is a systematic inventory of military and civilian persons who had residency rights in the territory of today's Republic of Slovenia during World War II and immediately after (May 1940 − January 1946) and lost their lives due to wartime and post-war (revolutionary) violence or consequences of war.
+
+
+
 
 
 
