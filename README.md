@@ -15,7 +15,15 @@ A selection of digital collections are available at [https://dariah.si/projects/
 <img src="img/database.png" width="50%">
 
 
+## Ideas
 
+- [Datasheets for Digital Cultural Heritage Datasets](https://doi.org/10.5281/zenodo.15828222)
+- Visualisations
+- New section in the website as GLAM Labs
+- Examples of use based on reproducible code
+- API access
+- Integration with European infrastructures
+- Open Access practices: Zenodo, Social Sciences and Humanities Open Marketplace, OpenAIRE
 
 ## References
 
