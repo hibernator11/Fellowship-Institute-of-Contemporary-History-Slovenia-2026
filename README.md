@@ -64,7 +64,36 @@ As a result, we can:
 - give direct Sistory page URLs for each example, or
 - build a SPARQL query to verify these places automatically in Wikidata.
 
+We ask for a SPARQL query to retrieve the information: https://w.wiki/JH3e
 
+```
+#defaultView#map
+SELECT ?place ?placeLabel ?typeLabel ?coord WHERE {
+  VALUES ?place {
+    wd:Q151198   # Dachau concentration camp
+    wd:Q160139   # Mauthausen concentration camp
+    wd:Q254165   # Bischofshofen
+    wd:Q3654688  # Renicci di Anghiari concentration camp
+    wd:Q831488   # Zapotok (Ig)
+    wd:Q734955   # Auschwitz II-Birkenau
+    wd:Q15876    # Ilirska Bistrica
+    wd:Q2197963  # Ložice (Vipava)
+    wd:Q3429146  # Retje (Loški Potok)
+  }
+
+  OPTIONAL { ?place wdt:P31 ?type . }      # instance of
+  OPTIONAL { ?place wdt:P625 ?coord . }    # coordinates
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,sl". }
+}
+ORDER BY ?placeLabel
+```
+
+And we repeat the process but in this case for 100 locations and create a visualisation.
+
+<img src=img/map-100.png>
+
+And export the data as a CSV file.
 
 ## Ideas
 
