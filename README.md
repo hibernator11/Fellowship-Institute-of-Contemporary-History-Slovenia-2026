@@ -8,6 +8,12 @@ This repository contains the information concerning the [Visiting Fellowship 202
 
 This presentation will introduce the publication and use of digital collections in the humanities following best practices and guidelines promoted by the International GLAM Labs Community and Collections as data initiatives. It will describe previous and ongoing work concerning the employment of reproducible code and workflows to reuse a wide diversity of content including metadata, bibliographic records or images. It will also present advanced techniques based on information retrieval, visualisation, data quality and enrichment with external repositories. Existing data research infrastructures and platforms in Europe will be outlined.
 
+## Datasets
+
+A selection of digital collections are available at [https://dariah.si/projects/research-data-collections/](https://dariah.si/projects/research-data-collections/). In particular, the [Database of Victims of the Republic of Slovenia during and immediately after the Second World War](https://sistory.si/eng/ww2?t=desc)
+
+
+
 ## References
 
 - https://inz.si/gostujoci-raziskovalec/gustavo-candela-phd/
