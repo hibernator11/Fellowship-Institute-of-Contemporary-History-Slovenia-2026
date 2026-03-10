@@ -1,6 +1,6 @@
 # Fellowship-Institute-of-Contemporary-History-Slovenia-2026
 
-This repository contains the information concerning the Visiting Fellowship 2025/26 (March 2026) at the Institute of Contemporary History in Ljubljana. It describes the main goals and outputs of the fellowship.
+This repository contains the information concerning the [Visiting Fellowship 2025/26 (March 2026) at the Institute of Contemporary History in Ljubljana](https://inz.si/gostujoci-raziskovalec/gustavo-candela-phd/). It describes the main goals and outputs of the fellowship.
 
 
 ## Lecture - Wednesday, March 11, 2026
