@@ -93,7 +93,7 @@ And we repeat the process but in this case for 100 locations and create a visual
 
 <img src=img/map-100.png width="75%">
 
-And export the data as a CSV file.
+And export the data as a [JSON file](data/death-locations.json).
 
 ## Ideas
 
