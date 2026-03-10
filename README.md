@@ -67,7 +67,7 @@ As a result, we can:
 We ask for a SPARQL query to retrieve the information: https://w.wiki/JH3e
 
 ```
-#defaultView#map
+#defaultView:Map
 SELECT ?place ?placeLabel ?typeLabel ?coord WHERE {
   VALUES ?place {
     wd:Q151198   # Dachau concentration camp
