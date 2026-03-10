@@ -39,6 +39,11 @@ where {
 ```
 <img src="img/map.png" width="50%">
 
+## Using LLM to enrich the data
+
+Using the following prompt 
+
+*Identify 10 places of death from the website https://sistory.si. Then, try to identify the Wikidata identifier for each of them and return them as a list.
 
 ## Ideas
 
