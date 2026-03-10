@@ -45,6 +45,27 @@ Using the following prompt
 
 * Identify 10 places of death from the website https://sistory.si. Then, try to identify the Wikidata identifier for each of them and return them as a list.
 
+And we retrieved:
+
+- Dachau concentration camp — Q151198
+- Mauthausen concentration camp — Q160139
+- Bischofshofen — Q254165
+- Renicci di Anghiari concentration camp — Q3654688
+- Zapotok (Ig) — Q831488
+- Renicci di Anghiari concentration camp — Q3654688
+- Auschwitz II-Birkenau — Q734955
+- Ilirska Bistrica — Q15876
+- Ložice (Vipava) — Q2197963
+- Retje (Loški Potok) — Q3429146
+
+As a result, we can:
+
+- export this as CSV/JSON,
+- give direct Sistory page URLs for each example, or
+- build a SPARQL query to verify these places automatically in Wikidata.
+
+
+
 ## Ideas
 
 - [Datasheets for Digital Cultural Heritage Datasets](https://doi.org/10.5281/zenodo.15828222)
