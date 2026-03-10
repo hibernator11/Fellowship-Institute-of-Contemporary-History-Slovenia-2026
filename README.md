@@ -105,6 +105,7 @@ And export the data as a [JSON file](data/death-locations.json).
 - API access
 - Integration with European infrastructures (e.g., ECCCH and EOSC)
 - Open Access practices: Zenodo, Social Sciences and Humanities Open Marketplace, OpenAIRE
+- Measure the quality of the data available and generated
 
 ## References
 
