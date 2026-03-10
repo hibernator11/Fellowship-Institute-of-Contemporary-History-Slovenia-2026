@@ -37,6 +37,7 @@ where {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],es". }
 }
 ```
+<img src="img/map.png" width="50%">
 
 
 ## Ideas
