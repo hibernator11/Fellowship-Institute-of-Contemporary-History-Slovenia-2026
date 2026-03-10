@@ -109,6 +109,7 @@ And export the data as a [JSON file](data/death-locations.json).
 
 ## References
 
+- Internal database of the Institute of Contemporary History (INZ): Tadeja Tominšek Čehulić, Mojca Šorn, Marta Rendla, Dunja Dobaja, Tamara Logar: Death Victims Among the Population in the Territory of the Republic of Slovenia During World War II and Immediately After [Collection].
 - https://inz.si/gostujoci-raziskovalec/gustavo-candela-phd/
 - https://dariah.si/history-on-the-edge-data-publishing-and-use-in-the-humanities-a-labs-approach/
 - Gustavo Candela. 2025. Browsing Linked Open Data in Cultural Heritage: A Shareable Visual Configuration Approach. J. Comput. Cult. Herit. 18, 1, Article 9 (March 2025), 15 pages. https://doi.org/10.1145/3707647
