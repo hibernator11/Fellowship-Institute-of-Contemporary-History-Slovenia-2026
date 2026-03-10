@@ -91,7 +91,7 @@ ORDER BY ?placeLabel
 
 And we repeat the process but in this case for 100 locations and create a visualisation.
 
-<img src=img/map-100.png>
+<img src=img/map-100.png width="75%">
 
 And export the data as a CSV file.
 
