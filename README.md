@@ -1,5 +1,7 @@
 # Fellowship-Institute-of-Contemporary-History-Slovenia-2026
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hibernator11/Fellowship-Institute-of-Contemporary-History-Slovenia-2026/HEAD)
+
 This repository contains the information concerning the [Visiting Fellowship 2025/26 (March 2026) at the Institute of Contemporary History in Ljubljana](https://inz.si/gostujoci-raziskovalec/gustavo-candela-phd/). It describes the main goals and outputs of the fellowship.
 
 
